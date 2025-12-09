@@ -1,0 +1,5 @@
+N = int(input("1000이하"))
+scores = list(map(int,input("현재 성적").split()))
+m = max(scores)
+s = sum(scores)
+print(s/m*100/N)
